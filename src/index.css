@@ -45,7 +45,7 @@ body {
 
 /* GENERAL CONTAINER CLASS */
 .container {
-    width: var(--container-width-lg);
+    width: 76%;
     margin-inline: auto;
     max-width: 1920px;
 }
@@ -54,11 +54,11 @@ body {
 section {
     padding: 10rem 0;
     background: rgb(240, 240, 240);
-    transition: var(--transition);
+    transition: all 500ms ease;
 }
 
 section:nth-child(even) {
-    background: var(--color-white);
+    background: white;
 }
 
 section > h2 {
@@ -73,14 +73,14 @@ section > p {
 
 /* GENERAL SECTIONS STYLES */
 a {
-    color: var(--color-white);
-    transition: var(--transition);
+    color: white;
+    transition: all 500ms ease;
 }
 
 /* GENERAL HEADING STYLES */
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
-    color: var(--color-black);
+    color: black;
 }
 
 h1 {
@@ -122,10 +122,10 @@ img {
     align-items: center;
     gap: 1rem;
     background: rgb(240, 240, 240);
-    color: var(--color-black);
+    color: black;
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
-    border-radius: var(--border-radius-2);
+    border-radius: 0.8rem;
     cursor: pointer;
 }
 
@@ -136,16 +136,16 @@ img {
 }
 
 .btn.white {
-    background: var(--color-white);
+    background: white;
 }
 
 .btn.white:hover {
     background: transparent;
-    border-color: var(--color-white);
+    border-color: white;
 }
 
 .btn.primary {
-    background-color: var(--color-primary);
+    background-color: white;
     color: white;
 }
 
@@ -165,7 +165,7 @@ img {
         font-size: 1rem;
     }
     .container {
-        width: var(--container-width-md);
+        width:  90%;
     }
     section {
         padding: 8rem 0;
@@ -200,6 +200,6 @@ img {
         padding: 0.6rem 1.5rem;
     }
     section > p {
-        width: var(--container-width-md);
+        width: 90%;
     }
 }
