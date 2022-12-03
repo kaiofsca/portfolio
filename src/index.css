@@ -53,7 +53,7 @@ body {
 /* GENERAL SECTIONS STYLES */
 section {
     padding: 10rem 0;
-    background: rgb(240, 240, 240);
+    background: rgb(231, 231, 231);
     transition: all 500ms ease;
 }
 
@@ -121,7 +121,7 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: rgb(240, 240, 240);
+    background: rgb(202, 202, 202);
     color: black;
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
@@ -131,7 +131,7 @@ img {
 
 .btn:hover {
     background-color: transparent;
-    border-color: rgb(240, 240, 240);
+    border-color: rgb(202, 202, 202);
     transform: translateY(-0.5rem);
 }
 
@@ -145,7 +145,7 @@ img {
 }
 
 .btn.primary {
-    background-color: white;
+    background-color: var(--color-primary);
     color: white;
 }
 
