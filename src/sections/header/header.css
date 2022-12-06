@@ -75,7 +75,7 @@ header {
 }
 
 /* MEDIA QUERIES (phones) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .header__profile {
         width: 14rem;
         height: 17rem;
