@@ -81,6 +81,7 @@ header {
         height: 17rem;
         max-width: 60%;
         max-height: 35vh;
+        margin-top: 5rem;
     }
 
     .header__container p {
