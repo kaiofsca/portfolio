@@ -28,7 +28,7 @@
 }
 
 .portfolio__project:hover .btn.sm {
-    border-color: white;
+    border-color: var(--color-white);
 }
 
 .portfolio__project:hover .btn.sm.primary {
