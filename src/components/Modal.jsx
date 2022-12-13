@@ -1,7 +1,7 @@
-import { Fragment } from "react"
-import  ReactDOM  from "react-dom"
-import Card from "./Card"
-
+import Card from './Card'
+import ReactDOM from 'react-dom'
+import { Fragment } from 'react'
+import './modal.css'
 
 const Modal = ({className, children}) => {
   return (
@@ -9,8 +9,8 @@ const Modal = ({className, children}) => {
         {
             ReactDOM.createPortal(<>
                 <section id="backdrop"></section>
-                <Card className={className}>ahgsuavkj</Card>
-            </>, document.querySelector('#overlays'))
+                <Card className={className}>{children}</Card>
+            </>, document.getElementById('overlays'))
         }
     </Fragment>
   )
