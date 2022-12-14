@@ -5,7 +5,7 @@ import Skills from './sections/skills/Skills'
 import Portfolio from './sections/portfolio/Portfolio'
 import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
-import Modal from './components/Modal'
+import Theme from './theme/Theme'
 // import FloatingNav from './sections/floating-nav/FloatingNav'
 
 
@@ -14,12 +14,12 @@ const App = () => {
     <main>
       <Navbar />
       <Header />
-      <Modal />
       <About />
       <Skills />
       <Portfolio />
       <Contact />
       <Footer />
+      <Theme />
       {/* <FloatingNav /> */}
     </main>
   )
