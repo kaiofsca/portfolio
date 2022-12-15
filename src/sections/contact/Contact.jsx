@@ -8,7 +8,7 @@ const Contact = () => {
       <p>
         Entre em contato por qualquer um desses links!
       </p>
-      <div className="container contact__container">
+      <div className="container contact__container" data-aos="fade-up">
         {
           contacts.map(contact => 
             <a key={contact.id} href={contact.link} target="_blank" rel='noopner noreferrer'>

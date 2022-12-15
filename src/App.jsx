@@ -7,7 +7,7 @@ import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
 import Theme from './theme/Theme'
 import { useThemeContext } from './context/theme-context'
-// import FloatingNav from './sections/floating-nav/FloatingNav'
+import FloatingNav from './sections/floating-nav/FloatingNav'
 
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
       <Contact />
       <Footer />
       <Theme />
-      {/* <FloatingNav /> */}
+      <FloatingNav />
     </main>
   )
 }

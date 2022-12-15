@@ -7,7 +7,7 @@ const Skills = () => {
     <section id='skills'>
       <h2>My Skills</h2>
       <p>Aqui temos todas as minhas Hardskills</p>
-      <div className="container skills__container">
+      <div className="container skills__container" data-aos="fade-in">
         {
           data.map(item => (
             <Card key={item.id} className="skill light">

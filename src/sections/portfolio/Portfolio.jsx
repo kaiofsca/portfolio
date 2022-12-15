@@ -12,7 +12,7 @@ const Portfolio = () => {
       <p>
         Veja agora os meus melhores projetos!
       </p>
-      <div className="container porfolio__container">
+      <div className="container porfolio__container" data-aos="fade-in">
         <Projects projects={projects}/>
       </div>
     </section>

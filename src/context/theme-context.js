@@ -3,7 +3,7 @@ import themeReducer from "./themeReducer";
 
 export const ThemeContext = createContext()
 
-const initialThemeState = {primary: 'color-1', background: 'bg-1'}
+const initialThemeState = JSON.parse(localStorage.getItem('themeSettings')) || {primary: 'color-1', background: 'bg-1'}
 
 export const ThemeProvider = ({children}) => {
     const [themeState, dispstchTheme] = useReducer(themeReducer, initialThemeState);
@@ -12,7 +12,10 @@ export const ThemeProvider = ({children}) => {
         dispstchTheme({type: buttonClassName})
     }
 
-    console.log(themeState)
+    // save theme settings to local storage
+    useEffect(() => {
+        localStorage.setItem('themeSettings', JSON.stringify(themeState))
+    }, [themeState.primary, themeState.background])
 
     return <ThemeContext.Provider value={{themeState, themeHandler}}>{children}</ThemeContext.Provider>
 }
