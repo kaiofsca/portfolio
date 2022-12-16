@@ -27,7 +27,7 @@
 - React-scrollspy
 - AOS (lib de animações)
 
-### 🤖 Link para o deploy: [Portfólio]()
+### 🤖 Link para o deploy: [Portfólio](https://portfolio-blond-theta-95.vercel.app/)
 
 ##
 
