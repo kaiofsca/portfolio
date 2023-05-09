@@ -1,5 +1,5 @@
 import AboutImage from '../../assets/about.jpg'
-import CV from '../../assets/cvestagio.pdf'
+import CV from '../../assets/CV_Kaio.pdf'
 import {HiDownload} from 'react-icons/hi'
 import './about.css'
 import data from './data'
@@ -28,7 +28,7 @@ const About = () => {
               }
             </div>
             <p>
-            Tenho 19 anos, sou de Rio de Janeiro mas moro em Brasília e atualmente estou construindo conhecimentos sólidos em Front-End para em um futuro breve entrar no mercado.
+            Tenho 19 anos, sou de Rio de Janeiro mas moro em Brasília e atualmente estou construindo conhecimentos sólidos em Front-End para em um futuro breve entrar no mercado como junior. Tenho experiência como estagiário de desenvolvimento onde tive contato com Javascript, Typescript, Git, JSDOC e Redmine.
             </p>
             <p>
             Olá, meu nome é Kaio Marques Fonseca e me considero um cara que sempre procura resolver os problemas da melhor maneira e sempre procurando evoluir a cada dia. Desenvolvi meu primeiro site em 2021 utilizando HTML e CSS. Desde então venho aprimorando minhas habilidades com projetos cada vez mais desafiadores que você pode dar uma olhada no meu GitHub!
